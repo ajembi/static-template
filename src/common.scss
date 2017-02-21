@@ -1,0 +1,23 @@
+@import './variables-colors.scss';
+@import './variables-media-queries.scss';
+@import './mixins.scss';
+
+/******************************************************************************/
+/****************************  GENERIC HTML/BODY  *****************************/
+/******************************************************************************/
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 13px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+

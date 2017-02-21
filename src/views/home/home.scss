@@ -1,0 +1,19 @@
+@import '../../common.scss';
+
+
+.view-home {
+
+  h1 {
+    color: blue;
+  }
+
+	/** Tablet **/
+	@media (min-width: $mq-tablet-min) {
+
+	}
+
+	/** Desktop **/
+	@media (min-width: $mq-desktop-min) {
+	
+	}
+}

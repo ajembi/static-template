@@ -1,0 +1,34 @@
+{
+  "name": "ajembi-static",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "serve": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.4",
+    "babel": "^6.5.2",
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-2": "^6.13.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "handlebars": "^4.0.6",
+    "handlebars-template-loader": "^0.7.0",
+    "html-webpack-plugin": "^2.24.1",
+    "image-webpack-loader": "^3.1.0",
+    "node-sass": "^4.1.1",
+    "postcss-loader": "^0.9.1",
+    "react-hot-loader": "^3.0.0-beta.1",
+    "sass-loader": "^4.1.1",
+    "webpack": "^2.2.0-rc.1",
+    "webpack-dev-server": "^2.1.0-beta.0"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "style-loader": "^0.13.1"
+  }
+}
